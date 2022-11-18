@@ -1,0 +1,52 @@
+----------
+MODULOS BUILT-IN (PRINCIPALES)
+VIENEN INSTALADOS CON NODE.JS
+
+    -HTTP
+    -HTTPS
+    -FS
+    -OS
+    -PATH
+    -PROCESS
+    -TIMERS
+
+----------
+MODULO CONSOLE
+ES UN MODULO BUILT-IN QUE IMPLEMENTA FUNCIONALIDAD SIMILAR A LA DE LA CONSOLA DE UN NAVEGADOR.
+
+    -CONSOLE.LOG()
+    -CONSOLE.WARN() ADVERTIR
+    -CONSOLE.ERROR() ERROR , PODEMOS PASAR UN OBJETO DE ERROR CONSOLE.ERROR(NEW ERROR('OCURRIO ERROR'))
+    -CONSOLE.ASSERT() 
+    -CONSOLE.TABLE()
+
+-----------
+MODULO PROCCES
+PROVEE INFORMACION SOBRE EL PROCESO DE NODE.JS QUE SE ESTA EJECUTANDO.
+TAMBIEN PUEDE TENER CIERTO CONTROL EN EL PROCESO.
+
+-----------
+MODULO TIMERS
+TEMPORIZADOR O CRONOMETRO.
+CONTIENE FUNCIONES QUE EJECUTAN CODIGO LUEGO DE UN CIERTO PERIODO DE TIEMPO.
+
+    -setTimeout(funcion, retraso, argumento1, argumento2, ++) para ejecutar codigo luego de un numero especifico de milisegundos.
+
+    -setImmediate() para ejecutar codigo asincrono en la proxima iteracion del ciclo de eventos (lo mas pronto posible de forma asincrona), se va a ejecutar despues del codigo sincrono.
+
+    -setInterval(funcion, intervalo, arg1, arg2, ++) para ejecutar codigo un numero infinito de veces con un retraso especifico de milisegundos.
+
+-----------
+FS  (SISTEMA DE ARCHIVOS)
+CONTIENE FUNCIONALIDAD MUY UTIL PARA TRABAJAR CON EL SISTEMA DE ARCHIVOS
+TODOS LOS METODOS SON ASYNCRONOS
+PERO PUEDES ESCOGER VERSIONES SYNCRONAS DE ESTOS METODOS AGREGANDO SYNC.
+    -LEER.
+    -MODIFICAR.
+    -COPIAR.
+    -ELIMINAR.
+    -CAMBIAR NOMBRE.
+
+---------------------
+HTTP 
+ESTE MODULO LE PERMITE A NODE.JS TRANSMITIR INFORMACION CON EL PROTOCOLO HTTP.
